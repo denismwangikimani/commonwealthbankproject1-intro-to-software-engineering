@@ -1,21 +1,50 @@
 * {
+  font-family: "Lucida Sans", Arial, sans-serif; 
+  box-sizing: border-box;
+  color: #1E1E1E;
+}
 
-font-family: Arial;
+body {
+  background-color: #EBEBEB; 
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.container {
+  background-color: #FFFFFF; 
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 100%;
 }
 
 h1 {
+  color: #1E1E1E; 
+  font-size: 70pt;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: "Lucida Sans", Arial, sans-serif; 
+  background-color: #FFCC00; 
+  padding: 20px 0; 
+}
 
-color: Blue;
-
-font-size: 36px;
-
+h2 {
+  color: #1E1E1E; 
+  font-size: 38pt; 
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-family: "Lucida Sans", Arial, sans-serif;
+  border-bottom: 2px solid #BEBEB9; 
+  padding-bottom: 5px;
 }
 
 p {
-
-font-size: 18px;
-
-color: Gray;
-
+  font-size: 18pt;
+  margin-bottom: 15px;
+  color: #1E1E1E;
 }
